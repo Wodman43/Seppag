@@ -7,4 +7,6 @@
     <string name="iniciar_sesion">Iniciar Sesion</string>
     <string name="username">Username</string>
     <string name="nombre_u">nombre U</string>
+    <string name="mezcla_pollo_en_engorde">mezcla pollo en engorde</string>
+    <string name="mezclas_realizadas">Mezclas Realizadas</string>
 </resources>
