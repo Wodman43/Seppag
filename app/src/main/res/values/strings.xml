@@ -2,4 +2,7 @@
     <string name="app_name">seppag</string>
     <string name="nombre_de_usuario">Nombre de usuario</string>
     <string name="entrar">entrar</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
 </resources>
