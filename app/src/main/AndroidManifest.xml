@@ -12,14 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Seppag"
         tools:targetApi="31">
-
         <activity
-            android:name=".activity_requerimientos"
+            android:name=".SplashActivity"
+            android:exported="false">
+            <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".MainActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SimuladorActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
