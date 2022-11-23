@@ -44,7 +44,7 @@
                 />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnIniciarSesion"
                 android:layout_width="152dp"
                 android:layout_height="70dp"
                 android:background="@drawable/login"

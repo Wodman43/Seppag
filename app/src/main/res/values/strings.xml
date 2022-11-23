@@ -8,4 +8,13 @@
     <string name="username">Username</string>
     <string name="nombre_u">nombre U</string>
     <string name="bienvenidos">Bienvenidos</string>
+    <string name="mezcla_pollo_en_engorde">mezcla pollo en engorde</string>
+    <string name="mezclas_realizadas">Mezclas Realizadas</string>
+    <string name="mezcla_cerdo">Mezcla cerdo</string>
+    <string name="mezcla_pollo_etapa_1">Mezcla pollo etapa 1</string>
+    <string name="mezcla_vaca_lechera">Mezcla vaca lechera</string>
+    <string name="simulador">Simulador</string>
+    <string name="seleccione_la_especie">Seleccione la especie</string>
+    <string name="seleccione_la_fase">Seleccione la fase</string>
+    <string name="cantidad_de_mezcla_kg">Cantidad de mezcla(kg)</string>
 </resources>

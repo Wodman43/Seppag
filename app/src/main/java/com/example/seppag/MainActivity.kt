@@ -17,10 +17,10 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(view)
 
-
        /* binding.btnIniciarSesion.setOnClickListener {
-        var intent = Intent(this, activity_requerimientos::class.java)
-           startActivity(intent)
-        } */
+            var intent = Intent(this, PerfilActivity::class.java)
+            startActivity(intent)
+        }*/
+
     }
 }
