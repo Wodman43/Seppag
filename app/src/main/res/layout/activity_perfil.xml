@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilActivity">
+  <androidx.appcompat.widget.AppCompatImageView
+      android:id="@+id/appCompatImageView2"
+      android:layout_width="133dp"
+      android:layout_height="130dp"
+
+
+      android:layout_marginTop="40dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="13dp"
+      android:textSize="24dp"
+      android:fontFamily="@font/worksans_semibold"
+      android:text="@string/nombre_de_usuario"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/appCompatImageView2" />
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="503dp"
+      android:layout_marginTop="40dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="526dp"
+        android:background="@drawable/cvw_requerimientos"
+        android:orientation="vertical">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="32dp"
+          android:layout_marginTop="23dp"
+          android:fontFamily="@font/worksans_semibold"
+          android:text="@string/mezclas_realizadas"
+          android:textColor="@color/verde"
+          android:textSize="22dp" />
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/cdvw_pollo"
+          android:layout_width="match_parent"
+          android:layout_height="60dp"
+          android:layout_marginLeft="32dp"
+          android:layout_marginTop="42dp"
+          android:layout_marginRight="32dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cvw_mezclas"
+            android:elevation="@dimen/cardview_default_elevation"
+            android:orientation="horizontal">
+
+          <TextView
+              android:layout_width="226dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="12dp"
+              android:layout_marginTop="20dp"
+              android:fontFamily="@font/worksans_semibold"
+              android:text="Mezcla pollo de engorde"
+              android:textColor="@color/grisletra"
+              android:textSize="18dp" />
+
+          <androidx.appcompat.widget.AppCompatImageView
+              android:layout_width="20dp"
+              android:layout_height="26dp"
+              android:layout_marginLeft="75dp"
+              android:layout_marginTop="20dp"
+              android:src="@drawable/ic_flecha" />
+        </LinearLayout>
+
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/cdvw_pollo_1"
+          android:layout_width="match_parent"
+          android:layout_height="60dp"
+          android:layout_marginLeft="32dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginRight="32dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cvw_mezclas"
+            android:elevation="@dimen/cardview_default_elevation"
+            android:orientation="horizontal">
+
+
+          <TextView
+              android:layout_width="226dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="12dp"
+              android:layout_marginTop="20dp"
+              android:fontFamily="@font/worksans_semibold"
+              android:text="@string/mezcla_pollo_etapa_1"
+              android:textColor="@color/grisletra"
+              android:textSize="18dp" />
+
+          <androidx.appcompat.widget.AppCompatImageView
+              android:layout_width="20dp"
+              android:layout_height="26dp"
+              android:layout_marginLeft="75dp"
+              android:layout_marginTop="20dp"
+              android:src="@drawable/ic_flecha" />
+        </LinearLayout>
+
+
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/cdvw_pollo1"
+          android:layout_width="match_parent"
+          android:layout_height="60dp"
+          android:layout_marginLeft="32dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginRight="32dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cvw_mezclas"
+            android:elevation="@dimen/cardview_default_elevation"
+            android:orientation="horizontal">
+
+          <TextView
+              android:layout_width="226dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="12dp"
+              android:layout_marginTop="20dp"
+              android:fontFamily="@font/worksans_semibold"
+              android:text="mezcla cerdo en engorde"
+              android:textColor="@color/grisletra"
+              android:textSize="18dp" />
+
+          <androidx.appcompat.widget.AppCompatImageView
+              android:layout_width="20dp"
+              android:layout_height="26dp"
+              android:layout_marginLeft="75dp"
+              android:layout_marginTop="20dp"
+              android:src="@drawable/ic_flecha" />
+        </LinearLayout>
+
+      </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cdvw_cerdo_engorde"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="32dp">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/cvw_mezclas"
+          android:elevation="@dimen/cardview_default_elevation"
+          android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/worksans_semibold"
+            android:text="@string/mezcla_cerdo"
+            android:textColor="@color/grisletra"
+            android:textSize="18dp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_flecha" />
+      </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+  </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
