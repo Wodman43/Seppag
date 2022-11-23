@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_requerimientos">
+    tools:context=".PerfilActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/appCompatImageView2"
@@ -33,160 +33,163 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="503dp"
-        android:layout_marginTop="20dp"
-
-
+        android:layout_marginTop="40dp"
         android:layout_marginBottom="4dp"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constraintStart_toStartOf="parent">
+
         <LinearLayout
-            android:background="@drawable/cvw_requerimientos"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="526dp"
+            android:background="@drawable/cvw_requerimientos"
             android:orientation="vertical">
-
-
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/mezclas_realizadas"
-                android:layout_marginTop="23dp"
                 android:layout_marginLeft="32dp"
-                android:textSize="22dp"
-                android:textColor="@color/verde"/>
+                android:layout_marginTop="23dp"
+                android:text="@string/mezclas_realizadas"
+                android:textColor="@color/verde"
+                android:textSize="22dp" />
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cdvw_pollo"
-                android:layout_width="296dp"
+                android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:layout_marginLeft="32dp"
                 android:layout_marginTop="42dp"
-                android:layout_marginLeft="32dp">
+                android:layout_marginRight="32dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/cvw_mezclas"
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="226dp"
                         android:layout_height="wrap_content"
-                        android:text="Mezcla pollo de engorde"
                         android:layout_marginLeft="12dp"
                         android:layout_marginTop="20dp"
-                        android:textSize="18dp"
-                        android:textColor="@color/grisletra"/>
+                        android:text="Mezcla pollo de engorde"
+                        android:textColor="@color/grisletra"
+                        android:textSize="18dp" />
+
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="9dp"
-                        android:layout_height="15dp"
-
-                        android:src="@drawable/ic_flecha"
-                        android:layout_marginTop="26dp"
-                        android:layout_marginLeft="39.5dp"/>
+                        android:layout_width="20dp"
+                        android:layout_height="26dp"
+                        android:layout_marginLeft="39.5dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/ic_flecha" />
                 </LinearLayout>
-
-
 
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cdvw_vaca"
-                android:layout_width="296dp"
+                android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginTop="42dp"
-                android:layout_marginLeft="32dp">
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="32dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/cvw_mezclas"
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="226dp"
                         android:layout_height="wrap_content"
-                        android:text="Mezcla vaca lechera"
                         android:layout_marginLeft="12dp"
                         android:layout_marginTop="20dp"
-                        android:textSize="18dp"
-                        android:textColor="@color/grisletra"/>
+                        android:text="Mezcla vaca lechera"
+                        android:textColor="@color/grisletra"
+                        android:textSize="18dp" />
+
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="9dp"
-                        android:layout_height="15dp"
-                        android:src="@drawable/ic_flecha"
-                        android:layout_marginTop="26dp"
-                        android:layout_marginLeft="39.5dp"/>
+                        android:layout_width="20dp"
+                        android:layout_height="26dp"
+                        android:layout_marginLeft="39.5dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/ic_flecha" />
                 </LinearLayout>
 
 
-
-
             </androidx.cardview.widget.CardView>
-
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cdvw_pollo1"
-                android:layout_width="296dp"
+                android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginTop="42dp"
-                android:layout_marginLeft="32dp">
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="32dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/cvw_mezclas"
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="226dp"
                         android:layout_height="wrap_content"
-                        android:text="Mezcla pollo etapa 1"
                         android:layout_marginLeft="12dp"
                         android:layout_marginTop="20dp"
-                        android:textSize="18dp"
-                        android:textColor="@color/grisletra"/>
+                        android:text="Mezcla pollo etapa 1"
+                        android:textColor="@color/grisletra"
+                        android:textSize="18dp" />
+
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="9dp"
-                        android:layout_height="15dp"
-                        android:src="@drawable/ic_flecha"
-                        android:layout_marginTop="26dp"
-                        android:layout_marginLeft="39.5dp"/>
+                        android:layout_width="20dp"
+                        android:layout_height="26dp"
+                        android:layout_marginLeft="39.5dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/ic_flecha" />
                 </LinearLayout>
-
-
 
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cdvw_cerdo_engorde"
-                android:layout_width="296dp"
+                android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginTop="42dp"
-                android:layout_marginLeft="32dp">
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="32dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/cvw_mezclas"
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="226dp"
                         android:layout_height="wrap_content"
-                        android:text="Mezcla cerdo en engorde"
                         android:layout_marginLeft="12dp"
                         android:layout_marginTop="20dp"
-                        android:textSize="18dp"
-                        android:textColor="@color/grisletra"/>
+                        android:text="Mezcla cerdo en engorde"
+                        android:textColor="@color/grisletra"
+                        android:textSize="18dp" />
+
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="9dp"
-                        android:layout_height="15dp"
-                        android:src="@drawable/ic_flecha"
-                        android:layout_marginTop="26dp"
-                        android:layout_marginLeft="39.5dp"/>
+                        android:layout_width="20dp"
+                        android:layout_height="26dp"
+                        android:layout_marginLeft="39.5dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/ic_flecha" />
                 </LinearLayout>
-
-
 
 
             </androidx.cardview.widget.CardView>
