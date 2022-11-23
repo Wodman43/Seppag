@@ -17,7 +17,7 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
 
-  <TextView
+  <androidx.appcompat.widget.AppCompatTextView
       android:id="@+id/textView4"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -37,13 +37,13 @@
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent">
 
-    <LinearLayout
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="526dp"
         android:background="@drawable/cvw_requerimientos"
         android:orientation="vertical">
 
-      <TextView
+      <androidx.appcompat.widget.AppCompatTextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_marginLeft="32dp"
@@ -61,14 +61,14 @@
           android:layout_marginTop="42dp"
           android:layout_marginRight="32dp">
 
-        <LinearLayout
+        <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/cvw_mezclas"
             android:elevation="@dimen/cardview_default_elevation"
             android:orientation="horizontal">
 
-          <TextView
+          <androidx.appcompat.widget.AppCompatTextView
               android:layout_width="226dp"
               android:layout_height="wrap_content"
               android:layout_marginLeft="12dp"
@@ -84,7 +84,7 @@
               android:layout_marginLeft="75dp"
               android:layout_marginTop="20dp"
               android:src="@drawable/ic_flecha" />
-        </LinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
       </androidx.cardview.widget.CardView>
 
@@ -96,7 +96,7 @@
           android:layout_marginTop="20dp"
           android:layout_marginRight="32dp">
 
-        <LinearLayout
+        <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/cvw_mezclas"
@@ -104,7 +104,7 @@
             android:orientation="horizontal">
 
 
-          <TextView
+          <androidx.appcompat.widget.AppCompatTextView
               android:layout_width="226dp"
               android:layout_height="wrap_content"
               android:layout_marginLeft="12dp"
@@ -120,7 +120,7 @@
               android:layout_marginLeft="75dp"
               android:layout_marginTop="20dp"
               android:src="@drawable/ic_flecha" />
-        </LinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
 
       </androidx.cardview.widget.CardView>
@@ -133,14 +133,14 @@
           android:layout_marginTop="20dp"
           android:layout_marginRight="32dp">
 
-        <LinearLayout
+        <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/cvw_mezclas"
             android:elevation="@dimen/cardview_default_elevation"
             android:orientation="horizontal">
 
-          <TextView
+          <androidx.appcompat.widget.AppCompatTextView
               android:layout_width="226dp"
               android:layout_height="wrap_content"
               android:layout_marginLeft="12dp"
@@ -156,12 +156,12 @@
               android:layout_marginLeft="75dp"
               android:layout_marginTop="20dp"
               android:src="@drawable/ic_flecha" />
-        </LinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
       </androidx.cardview.widget.CardView>
 
 
-    </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cdvw_cerdo_engorde"
@@ -171,7 +171,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="32dp">
 
-      <LinearLayout
+      <androidx.appcompat.widget.LinearLayoutCompat
           android:layout_width="match_parent"
           android:layout_height="match_parent"
           android:background="@drawable/cvw_mezclas"
@@ -179,7 +179,7 @@
           android:orientation="horizontal">
 
 
-        <TextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="226dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="12dp"
@@ -195,7 +195,7 @@
             android:layout_marginLeft="75dp"
             android:layout_marginTop="20dp"
             android:src="@drawable/ic_flecha" />
-      </LinearLayout>
+      </androidx.appcompat.widget.LinearLayoutCompat>
 
 
     </androidx.cardview.widget.CardView>
