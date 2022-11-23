@@ -18,15 +18,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
         android:textSize="24dp"
+        android:fontFamily="@font/worksans_semibold"
         android:text="@string/nombre_de_usuario"
         app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appCompatImageView2" />
 
@@ -50,6 +49,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="32dp"
                 android:layout_marginTop="23dp"
+                android:fontFamily="@font/worksans_semibold"
                 android:text="@string/mezclas_realizadas"
                 android:textColor="@color/verde"
                 android:textSize="22dp" />
@@ -76,16 +76,16 @@
                         android:layout_marginTop="20dp"
                         android:text="Mezcla pollo de engorde"
                         android:textColor="@color/grisletra"
+                        android:fontFamily="@font/worksans_semibold"
                         android:textSize="18dp" />
 
                     <androidx.appcompat.widget.AppCompatImageView
                         android:layout_width="20dp"
                         android:layout_height="26dp"
-                        android:layout_marginLeft="39.5dp"
+                        android:layout_marginLeft="75dp"
                         android:layout_marginTop="20dp"
                         android:src="@drawable/ic_flecha" />
                 </LinearLayout>
-
 
             </androidx.cardview.widget.CardView>
 
@@ -107,16 +107,17 @@
                     <TextView
                         android:layout_width="226dp"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/worksans_semibold"
                         android:layout_marginLeft="12dp"
                         android:layout_marginTop="20dp"
-                        android:text="Mezcla vaca lechera"
+                        android:text="@string/mezcla_vaca_lechera"
                         android:textColor="@color/grisletra"
                         android:textSize="18dp" />
 
                     <androidx.appcompat.widget.AppCompatImageView
                         android:layout_width="20dp"
                         android:layout_height="26dp"
-                        android:layout_marginLeft="39.5dp"
+                        android:layout_marginLeft="75dp"
                         android:layout_marginTop="20dp"
                         android:src="@drawable/ic_flecha" />
                 </LinearLayout>
@@ -142,16 +143,17 @@
                     <TextView
                         android:layout_width="226dp"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/worksans_semibold"
                         android:layout_marginLeft="12dp"
                         android:layout_marginTop="20dp"
-                        android:text="Mezcla pollo etapa 1"
+                        android:text="@string/mezcla_pollo_etapa_1"
                         android:textColor="@color/grisletra"
                         android:textSize="18dp" />
 
                     <androidx.appcompat.widget.AppCompatImageView
                         android:layout_width="20dp"
                         android:layout_height="26dp"
-                        android:layout_marginLeft="39.5dp"
+                        android:layout_marginLeft="75dp"
                         android:layout_marginTop="20dp"
                         android:src="@drawable/ic_flecha" />
                 </LinearLayout>
@@ -178,15 +180,16 @@
                         android:layout_width="226dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="12dp"
+                        android:fontFamily="@font/worksans_semibold"
                         android:layout_marginTop="20dp"
-                        android:text="Mezcla cerdo en engorde"
+                        android:text="@string/mezcla_cerdo"
                         android:textColor="@color/grisletra"
                         android:textSize="18dp" />
 
                     <androidx.appcompat.widget.AppCompatImageView
                         android:layout_width="20dp"
                         android:layout_height="26dp"
-                        android:layout_marginLeft="39.5dp"
+                        android:layout_marginLeft="75dp"
                         android:layout_marginTop="20dp"
                         android:src="@drawable/ic_flecha" />
                 </LinearLayout>
@@ -195,8 +198,6 @@
             </androidx.cardview.widget.CardView>
         </LinearLayout>
 
-
     </androidx.cardview.widget.CardView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,4 +9,7 @@
     <string name="nombre_u">nombre U</string>
     <string name="mezcla_pollo_en_engorde">mezcla pollo en engorde</string>
     <string name="mezclas_realizadas">Mezclas Realizadas</string>
+    <string name="mezcla_cerdo">Mezcla cerdo</string>
+    <string name="mezcla_pollo_etapa_1">Mezcla pollo etapa 1</string>
+    <string name="mezcla_vaca_lechera">Mezcla vaca lechera</string>
 </resources>
