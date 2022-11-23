@@ -21,7 +21,6 @@
             android:background="@drawable/cvw_miperfil2">
 
 
-
             <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -81,12 +80,13 @@
                app:layout_constraintStart_toStartOf="parent" />
 
 
-
            <androidx.constraintlayout.widget.ConstraintLayout
                android:layout_width="match_parent"
                android:layout_height="match_parent"
-               tools:layout_editor_absoluteX="0dp"
-               tools:layout_editor_absoluteY="-53dp">
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintHorizontal_bias="0.0"
+               app:layout_constraintStart_toStartOf="parent"
+               tools:layout_editor_absoluteY="0dp">
 
 
                <Spinner
@@ -113,17 +113,13 @@
                    tools:ignore="UnknownId" />
 
                <androidx.constraintlayout.widget.ConstraintLayout
-                   android:layout_width="match_parent"
-                   android:layout_height="match_parent">
-               <Spinner
-                   android:layout_width="328dp"
-                   android:layout_height="36dp"
-                   android:layout_marginTop="168dp"
-                   android:background="@color/gris"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
                    app:layout_constraintEnd_toEndOf="parent"
-                   app:layout_constraintStart_toStartOf="@+id/textView7"
-                   app:layout_constraintTop_toTopOf="parent"
-                   tools:ignore="UnknownId" />
+                   app:layout_constraintHorizontal_bias="0.0"
+                   app:layout_constraintStart_toStartOf="parent"
+                   tools:layout_editor_absoluteY="0dp">
+
 
                </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -140,11 +136,22 @@
             android:text="@string/simulador"
             android:textColor="@color/verde"
             android:textSize="24dp"
+            android:fontFamily="@font/worksans_semibold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.61"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="160dp" />
 
     </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:layout_width="328dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="188dp"
+        android:background="@color/gris"
+        app:layout_constraintEnd_toEndOf="@+id/cardView2"
+        app:layout_constraintStart_toStartOf="@+id/cardView2"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
