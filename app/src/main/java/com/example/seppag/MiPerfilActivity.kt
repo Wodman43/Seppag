@@ -2,13 +2,12 @@ package com.example.seppag
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.seppag.databinding.ActivityMiPerfilBinding
+import com.example.seppag.databinding.MiPerfilBinding
 
-class MiPerfilActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityMiPerfilBinding
+class MiperfilActivity : AppCompatActivity() {
+    private lateinit var binding: MiPerfilBinding
     override fun onCreate(savedInstanceState: Bundle?) {
-        binding= ActivityMiPerfilBinding.inflate(layoutInflater)
-        var view=binding.root
+      var view=binding.root
         super.onCreate(savedInstanceState)
         setContentView(view)
     }
