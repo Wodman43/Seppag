@@ -9,6 +9,7 @@
     <string name="nombre_u">nombre U</string>
     <string name="mezcla_pollo_en_engorde">mezcla pollo en engorde</string>
     <string name="mezclas_realizadas">Mezclas Realizadas</string>
+<<<<<<< HEAD
     <string name="title_activity_main2">MainActivity2</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -52,4 +53,13 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+=======
+    <string name="mezcla_cerdo">Mezcla cerdo</string>
+    <string name="mezcla_pollo_etapa_1">Mezcla pollo etapa 1</string>
+    <string name="mezcla_vaca_lechera">Mezcla vaca lechera</string>
+    <string name="simulador">Simulador</string>
+    <string name="seleccione_la_especie">Seleccione la especie</string>
+    <string name="seleccione_la_fase">Seleccione la fase</string>
+    <string name="cantidad_de_mezcla_kg">Cantidad de mezcla(kg)</string>
+>>>>>>> 13525232fd1f1b9599d547575280a9864b45c6bd
 </resources>

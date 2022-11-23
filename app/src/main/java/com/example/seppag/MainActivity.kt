@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
 
         binding.btnIniciarSesion.setOnClickListener {
-            var intent = Intent(this, activity_requerimientos::class.java)
+            var intent = Intent(this, PerfilActivity::class.java)
             startActivity(intent)
         }
     }
