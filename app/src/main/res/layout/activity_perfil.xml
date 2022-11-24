@@ -6,42 +6,86 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PerfilActivity">
+  <androidx.appcompat.widget.LinearLayoutCompat
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      tools:ignore="MissingConstraints"/>
+
+
+  <androidx.appcompat.widget.AppCompatImageView
+      android:id="@+id/appCompatImageView"
+      android:layout_width="match_parent"
+      android:layout_height="74dp"
+      android:background="@color/verde"
+
+
+
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+
+  <ImageView
+      android:layout_width="27dp"
+      android:layout_height="40dp"
+      android:layout_marginTop="23dp"
+      android:layout_marginLeft="10dp"
+      android:src="@drawable/ic_volver_flecha"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="29dp"
+      android:layout_marginLeft="42dp"
+      android:text="Volver a simulador"
+      android:fontFamily="@font/worksans_semibold"
+      android:textSize="18dp"
+      android:textColor="@color/blanco"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+  
+
   <androidx.appcompat.widget.AppCompatImageView
       android:id="@+id/appCompatImageView2"
       android:layout_width="133dp"
       android:layout_height="130dp"
-
-
-      android:layout_marginTop="40dp"
+      android:layout_marginTop="28dp"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toBottomOf="@+id/appCompatImageView" />
 
   <androidx.appcompat.widget.AppCompatTextView
       android:id="@+id/textView4"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginTop="13dp"
-      android:textSize="24dp"
       android:fontFamily="@font/worksans_semibold"
       android:text="@string/nombre_de_usuario"
+      android:textSize="24dp"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/appCompatImageView2" />
 
   <androidx.cardview.widget.CardView
+      android:id="@+id/cardView3"
       android:layout_width="match_parent"
-      android:layout_height="503dp"
-      android:layout_marginTop="40dp"
+      android:layout_height="441dp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent">
 
+
+
+
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
-        android:layout_height="526dp"
+        android:layout_height="match_parent"
         android:background="@drawable/cvw_requerimientos"
+
         android:orientation="vertical">
+
 
       <androidx.appcompat.widget.AppCompatTextView
           android:layout_width="wrap_content"
