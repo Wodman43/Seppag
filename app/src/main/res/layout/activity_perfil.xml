@@ -58,7 +58,7 @@
           android:layout_width="match_parent"
           android:layout_height="60dp"
           android:layout_marginLeft="32dp"
-          android:layout_marginTop="42dp"
+          android:layout_marginTop="96dp"
           android:layout_marginRight="32dp">
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -168,7 +168,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="70dp"
         android:layout_marginRight="32dp">
 
       <androidx.appcompat.widget.LinearLayoutCompat
