@@ -7,6 +7,7 @@
     <string name="iniciar_sesion">Iniciar Sesion</string>
     <string name="username">Username</string>
     <string name="nombre_u">nombre U</string>
+    <string name="bienvenidos">Bienvenidos</string>
     <string name="mezcla_pollo_en_engorde">mezcla pollo en engorde</string>
     <string name="mezclas_realizadas">Mezclas Realizadas</string>
     <string name="title_activity_main2">MainActivity2</string>
@@ -24,4 +25,5 @@
     <string name="seleccione_la_especie">Seleccione la especie</string>
     <string name="seleccione_la_fase">Seleccione la fase</string>
     <string name="cantidad_de_mezcla_kg">Cantidad de mezcla(kg)</string>
+    <string name="correo_electronico">Correo Electronico</string>
 </resources>

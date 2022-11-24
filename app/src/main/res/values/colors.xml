@@ -15,6 +15,10 @@
     <color name="griscd">#E9ECEC</color>
     <color name="grisletra">#908C8C</color>
     <color name="blanco">#F3F4F4</color>
+    <color name="verde_barra">#024B2A</color>
+    <color name="amarillo_barra">#FFC229</color>
+    <color name="verdecito_barra">#65AE46</color>
+    <color name="gris_barra">#868181</color>
 
 
 </resources>
