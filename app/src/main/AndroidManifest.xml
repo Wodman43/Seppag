@@ -28,7 +28,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".PerfilActivity"
             android:exported="false">
@@ -38,7 +37,20 @@
         </activity>
 
         <activity
+<<<<<<< HEAD
+            android:name=".PerfilActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+=======
+
+>>>>>>> 4c4c0b9b195a167d961c685eaca2760e85015825
             android:name=".SplashActivity"
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
