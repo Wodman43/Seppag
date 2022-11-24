@@ -1,5 +1,6 @@
 package com.example.seppag
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.seppag.databinding.ActivityMainBinding
@@ -13,5 +14,11 @@ class SimuladorActivity : AppCompatActivity() {
         var view=binding.root
         super.onCreate(savedInstanceState)
         setContentView(view)
+
+
+        binding.perfilllamar.setOnClickListener {
+            var intent = Intent(this, PerfilActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

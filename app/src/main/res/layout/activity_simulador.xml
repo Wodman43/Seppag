@@ -28,6 +28,7 @@
                 android:layout_marginTop="15dp" />
 
             <TextView
+                android:id="@+id/perfilllamar"
                 android:layout_width="73dp"
                 android:layout_height="21dp"
                 android:layout_marginLeft="8dp"

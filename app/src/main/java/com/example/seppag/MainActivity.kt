@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
         binding.btnIniciarSesion.setOnClickListener {
-            var intent = Intent(this, PerfilActivity::class.java)
+            var intent = Intent(this, SimuladorActivity::class.java)
             startActivity(intent)
         }
 
