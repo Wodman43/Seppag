@@ -29,10 +29,6 @@
                 android:layout_marginTop="15dp" />
 
             <TextView
-<<<<<<< HEAD
-
-=======
->>>>>>> d4e2bb9c3a888dde956344440fed097c26f386a8
                 android:id="@+id/perfilllamar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
