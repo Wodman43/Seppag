@@ -19,6 +19,7 @@
     <color name="amarillo_barra">#FFC229</color>
     <color name="verdecito_barra">#65AE46</color>
     <color name="gris_barra">#868181</color>
-
-
+    <color name="negro_MO">#2B2B2B</color>
+    <color name="gris_MO">#00000029</color>
+    <color name="verde_gris_MO">#8DC47F</color>
 </resources>
